@@ -13,16 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Rodas Asmare - Portfolio",
   description: "Full-stack developer passionate about creating innovative web solutions. Explore my projects and get in touch.",
-  keywords: ["developer", "portfolio", "web development", "react", "next.js"],
-  authors: [{ name: "Your Name" }],
-  openGraph: {
-    title: "Your Name - Portfolio",
-    description: "Full-stack developer passionate about creating innovative web solutions.",
-    type: "website",
-  },
-};
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  }
+}
 
 export default function RootLayout({
   children,
